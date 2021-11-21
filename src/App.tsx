@@ -1,14 +1,15 @@
 import React from "react";
 import './App.css';
-import AppContainer from "./AppContainer";
+import {Navigation} from "./Navigation";
+import {Body} from "./Body";
 
 
 
 function App() {
-
     return (
         <div className="App">
-            <AppContainer/>
+           <Navigation/>
+            <Body/>
         </div>
     );
 }
